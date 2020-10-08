@@ -24,7 +24,8 @@
         android:textSize="30dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/et_account_name"/>
+        app:layout_constraintTop_toBottomOf="@id/et_account_name" />
+
     <Button
         android:id="@+id/bt_login"
         android:layout_width="wrap_content"
@@ -32,7 +33,8 @@
         android:text="Login"
         app:layout_constraintTop_toBottomOf="@id/password"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent" />
+
     <Button
         android:id="@+id/bt_go_sign_up"
         android:layout_width="wrap_content"
@@ -40,5 +42,16 @@
         app:layout_constraintTop_toBottomOf="@id/bt_login"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text = "Sign up"/>
+        android:text="Sign up" />
+
+    <ImageView
+        android:id="@+id/icon_main"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/ic_launcher"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:transitionName="example" />
 </androidx.constraintlayout.widget.ConstraintLayout>
